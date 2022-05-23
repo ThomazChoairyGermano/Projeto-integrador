@@ -1,0 +1,352 @@
+*{  
+    margin: 10;
+    padding: 0;
+    text-decoration: none;
+}
+
+
+
+.logo{
+    background-color: rgb(192, 0, 0)
+    
+}
+
+
+.logo img{
+    width: 300px;
+    height: 300px;
+    float: left;
+    margin-right: 20px; 
+}
+
+
+.icones a {
+    display: inline-flex;
+    width: 50px;
+    height: 50px;
+    background: rgb(225, 8, 8);
+    color: white;
+    margin: 0 6px;
+    border-radius: 50px;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+    font-size: 20px;
+}
+
+.icones a:hover{
+    background:rgb(92, 0, 0)
+}
+
+.icones a i {
+    transition: 00.4s all;
+
+}
+
+
+.icones a:hover > i{
+    transform: scale(1.6) rotate(25deg);
+}
+
+
+
+
+
+
+
+
+:root{
+    --cor-fundo : rgb(192, 19, 0);
+    --cor-hever : rgb(247, 0, 255);
+    --cor-primaria : rgb(255, 255, 255);
+    --cor-estrutura : rgb(92, 0, 0);
+}
+
+
+.dp-menu ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.dp-menu ul {
+    background-color: var(--cor-fundo);
+}
+
+.dp-menu ul li a {
+    display: inline;
+    position: relative;
+}
+
+.dp-menu ul li a {
+    color: var(--cor-primaria);
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px;
+}
+
+.dp-menu ul li a:hover {
+    background-color: var(--cor-estrutura);
+
+}
+
+.dp-menu ul ul{
+    display: none;
+    position: absolute;
+}
+
+.dp-menu ul li:hover ul{
+    display: block;
+
+}
+
+.dp-menu ul ul{
+    width: 150px;
+}
+
+.dp-menu ul ul li a {
+    display: block;
+}
+
+
+
+body {
+    background-color: rgb(255, 255, 255);
+
+}
+
+p {
+    
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    text-align: justify;
+}
+
+.logo {
+    background-image: url(imagem/Imagens/circuitos2.jpg);
+    vertical-align: middle;
+    border: 0ch;
+}
+
+.final {
+    border: 1px solid rgb(0, 0, 0);
+    background-image: url(imagem/Imagens/circuitos3.jpg);
+    vertical-align: middle;
+    border: 0ch;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: minmax(50px, auto);
+
+    width: 50%;
+    height: 50%;
+
+}
+
+
+
+.container {
+    display: grid;
+    
+    grid-template-columns: repeat(2, 1fr);
+
+
+
+
+}    
+
+
+
+
+
+
+figure {
+    
+    background-color: aliceblue;
+
+}
+
+h3 {
+    border: 10;
+    margin: 10px;
+    font-family: arial, sans-serif;
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+
+
+
+
+
+h2 {
+    margin: 10px;
+    font-family: arial, sans-serif;
+    font-style: italic;
+    font-size: 50px;
+    color: aliceblue;
+    background-color: rgb(192, 0, 0);
+    
+    
+}
+
+h1 {
+    margin: 10px;
+    font-family: arial, sans-serif;
+    font-size: 60px;
+    color: aliceblue;
+    text-align: center;
+    
+}
+
+a {
+    font-size: 25px;
+}
+
+
+figure.foto-hackathon {
+    width: 1fr;
+    height: 1fr;
+  
+}
+
+
+figure.foto-hackathon img {
+    width: 100%;
+    height: 100%;
+}
+
+figure.mulher {
+    width: 1fr;
+    height: 1fr;
+  
+}
+
+figure.mulher img {
+    width: 100%;
+    height: 100%;
+}
+
+figure.palestra {
+    
+    width: 1fr;
+    height: 1fr;
+  
+}
+
+figure.palestra img{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+ul {
+    
+    background-origin: black;
+    margin: 0;
+
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    align-items: center;
+    padding: 10px;
+
+    
+    width: 1180px;
+    height: 115px;
+
+
+}
+
+
+
+
+
+
+
+
+li{
+    float:left;
+}
+
+
+li a:hover, .dropdown:hover .dropbtn{
+    background: rgb(171, 0, 0);
+
+}
+
+
+a {
+    color: white;
+    text-decoration: none;
+    font-style: oblique;
+
+}
+
+
+
+
+
+texto1 {
+    color: white;
+}
+
+texto2 {
+    color: white;
+}
+
+
+.box-3 {
+    border: 1px solid rgb(0, 0, 0);
+    background-image:url(imagem/Imagens/fundo_instagram.jpg);
+
+}
+
+figure.banner {
+
+    width: 100%;
+    height: 14%;
+
+}
+
+figure.banner img{
+    width: 100%;
+    height: 100%;
+}
+
+
+figure.M_instagram {
+
+    width: 100%;
+    height: 40%;
+        
+}
+
+figure.M_instagram img{
+    width: 100%;
+    height: 100%;
+}
+
+figure.Live_instagram {
+
+    width: 100%;
+    height: 40%;
+        
+}
+
+figure.Live_instagram img{
+    width: 100%;
+    height: 100%;
+}
+        
+        
+
+
+
+
+
+
+
+
+        
